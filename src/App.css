@@ -1,3 +1,10 @@
-/* body{
- 
-} */
+
+body::-webkit-scrollbar{
+  width: 10px;
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 20px;
+}

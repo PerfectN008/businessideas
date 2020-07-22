@@ -2,15 +2,21 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 import './ComprehensionPage.Styles.css';
-import ComprehensionHeader from '../../Components/ComprehensionHeader/ComprehensionHeader';
-import Comprehension from '../../Components/Comprehension/Comprehension';
+import { Link } from 'react-router-dom';
 
  const ComprehensionPage = ({match, comprehensionData}) => {
-    const allotedCompany = comprehensionData.find( comapny => comapny.routeName===match.params.companyId )
+    const allotedCompany = comprehensionData.find( company => company.routeName===match.params.companyId );
+    const {comprehensions} = allotedCompany;
+    const currentComprehension = comprehensions.find( comprehension => comprehension.routeName===match.params.comprehensionId);
     return (
         <div className='comprehension-page'>
-            <ComprehensionHeader heading={allotedCompany.title} />
-            {allotedCompany.comprehensions.map( comprehension => <Comprehension key={comprehension.id} comp={comprehension} /> )}
+            <div className='comprehension'>
+                <h1 className='title'>{currentComprehension.name}</h1>
+                <p className='body'>{currentComprehension.comprehension}</p>
+                <div className='button'>
+                    <button><Link to={`${match.url}/questions`}>Questions</Link></button>
+                </div>
+            </div>
         </div>
     )
 }
