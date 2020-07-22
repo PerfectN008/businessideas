@@ -2,17 +2,7 @@
     width: 100%;
     height: 100%;
     display: flex;
-    background: linear-gradient(175deg, #9bffc6 0%, #ffe77a 15%, #fff 25%, #fff 100%);
-}
-
-.introduction-page .background{
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: 20%;
-    opacity: 0;
-    background-position-x: 3%;
-    background-position-y: 5%;
-    transition: all 0.5s cubic-bezier(0.445, 0.05, 0, 1);
+    background: linear-gradient(#9bffc6  10%, #fff 25%, #fff 100%);
 }
 
 .introduction-page .company-introduction{
@@ -47,6 +37,7 @@
     padding: 10px 10%;
     margin: 0;
     font-size: 20px;
+    letter-spacing: 1px;
 }
 
 .introduction-page .company-introduction .button button{

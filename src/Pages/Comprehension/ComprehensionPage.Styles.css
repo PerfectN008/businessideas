@@ -2,7 +2,7 @@
     width: 100%;
     height: 100%;
     display: flex;
-    background: linear-gradient(175deg, #9bffc6 0%, #ffe77a 15%, #fff 25%, #fff 100%);
+    background: linear-gradient(#ffe77a 10%, #fff 25%, #fff 100%);
 }
 
 .comprehension-page .comprehension{

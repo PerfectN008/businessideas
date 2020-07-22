@@ -10,7 +10,6 @@ const IntroductionPage = ({ comprehensionData }) => {
     const allotedCompany = Math.floor(Math.random()*comprehensionData.length);
     return (
         <div className='introduction-page'>
-            <div className='background' style={{backgroundImage: `url(${Background})`}} />
             <div className='company-introduction'>
                 <h1 className='title'>{comprehensionData[allotedCompany].title.toUpperCase()}</h1>
                 <div className='body'>
