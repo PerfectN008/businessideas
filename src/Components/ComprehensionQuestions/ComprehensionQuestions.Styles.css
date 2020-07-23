@@ -1,38 +1,24 @@
 .mcqs-container{
     margin: 0 50px;
-    padding: 0px;
-    display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    height: fit-content;
     border: 2px solid #1c1f24;
+    border-radius: 5px;
     background: #282c34;
 }
 
 .mcq-questions{
-    margin-bottom: 50px ;
     padding: 20px;
     position: relative;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
     grid-gap: 40px 40px;
     grid-template-rows: auto;
 }
 
-.mcq-questions::-webkit-scrollbar{
-    width: 6px;
-    background-color: transparent;
-}
-     
-.mcq-questions::-webkit-scrollbar-thumb{
-    background-color: rgba(0,0,0,0.7);
-    border-radius: 20px;
-}
-
 .mcq-questions .mcq-container{
     position: relative;
-    height: 400px;
+    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,18 +57,4 @@
     height: 100%;
     background-color: #1c1f24;
     pointer-events: none;
-}
-
-.mcqs-container button{
-    margin: 0 40%;
-    width: 10%;
-    background: #282c34;
-    transition: all 0.5s cubic-bezier(0.445, 0.05, 0, 1);
-    border: none;
-    outline: none;
-    border-radius: 40px;
-    color: #2ba15f;
-    font-size: 20px;
-    box-shadow: -2px -2px 6px rgba(255,255,255,0.1),
-                2px 2px 6px rgba(0,0,0,0.8);
 }

@@ -19,22 +19,6 @@
     transform: scale(1);
 }
 
-.comprehension-page .comprehension .title{
-    font-size: 40px;
-    letter-spacing: 4px;
-    border-bottom: 1px solid black;
-    padding-bottom: 5px;
-    padding-left: 30px;
-}
-
-.comprehension-page .comprehension .body{
-    width: 80%;
-    height: fit-content;
-    padding: 10px 10%;
-    margin: 0;
-    font-size: 20px;
-}
-
 .comprehension-page .comprehension .button button{
     width: 20%;
     height: 40px;

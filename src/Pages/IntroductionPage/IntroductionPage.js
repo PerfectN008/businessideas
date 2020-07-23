@@ -1,20 +1,22 @@
 import React from 'react';
 import { connect } from 'react-redux';
-
-import './IntroductionPage.Styles.css';
 import { Link } from 'react-router-dom';
 
-import Background from '../../Assets/Daco_77263.png'
+import './IntroductionPage.Styles.css';
+
+import Header from '../../Components/Header/Header';
+import Body from '../../Components/Body/Body';
 
 const IntroductionPage = ({ comprehensionData }) => {
     const allotedCompany = Math.floor(Math.random()*comprehensionData.length);
     return (
         <div className='introduction-page'>
             <div className='company-introduction'>
-                <h1 className='title'>{comprehensionData[allotedCompany].title.toUpperCase()}</h1>
+                <Header heading={comprehensionData[allotedCompany].title} />
                 <div className='body'>
-                    <p>{comprehensionData[allotedCompany].intro}{comprehensionData[allotedCompany].intro}{comprehensionData[allotedCompany].intro}{comprehensionData[allotedCompany].intro}{comprehensionData[allotedCompany].intro}</p>
+                    <p></p>
                 </div>
+                <Body body={comprehensionData[allotedCompany].intro + comprehensionData[allotedCompany].intro + comprehensionData[allotedCompany].intro + comprehensionData[allotedCompany].intro + comprehensionData[allotedCompany].intro} />
                 <div className='button'>
                     <button><Link to={'/comprehensionRules/'+comprehensionData[allotedCompany].routeName}>Comprehensions &#8594;</Link></button>
                 </div>

@@ -73,26 +73,31 @@ const ComprehensionData = [
                 questions: [{
                     id: 1,
                     question: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-                    options: ['option1','option2','option3','option4']
+                    options: ['option1','option2','option3','option4'],
+                    correctOption: 1
                 },
                 {
                     id: 2,
                     question: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-                    options: ['option1','option2','option3','option4']
+                    options: ['option1','option2','option3','option4'],
+                    correctOption: 1
                 },
                 {
                     id: 3,
                     question: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-                    options: ['option1','option2','option3','option4']
+                    options: ['option1','option2','option3','option4'],
+                    correctOption: 1
                 },
                 {
                     id: 4,
                     question: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-                    options: ['option1','option2','option3','option4']
+                    options: ['option1','option2','option3','option4'],
+                    correctOption: 1
                 },{
                     id: 5,
                     question: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-                    options: ['option1','option2','option3','option4']
+                    options: ['option1','option2','option3','option4'],
+                    correctOption: 1
                 }]
             },
             {
@@ -103,26 +108,31 @@ const ComprehensionData = [
                 questions: [{
                     id: 1,
                     question: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-                    options: ['option1','option2','option3','option4']
+                    options: ['option1','option2','option3','option4'],
+                    correctOption: 1
                 },
                 {
                     id: 2,
                     question: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-                    options: ['option1','option2','option3','option4']
+                    options: ['option1','option2','option3','option4'],
+                    correctOption: 1
                 },
                 {
                     id: 3,
                     question: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-                    options: ['option1','option2','option3','option4']
+                    options: ['option1','option2','option3','option4'],
+                    correctOption: 1
                 },
                 {
                     id: 4,
                     question: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-                    options: ['option1','option2','option3','option4']
+                    options: ['option1','option2','option3','option4'],
+                    correctOption: 1
                 },{
                     id: 5,
                     question: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-                    options: ['option1','option2','option3','option4']
+                    options: ['option1','option2','option3','option4'],
+                    correctOption: 1
                 }]
             }
         ]
@@ -141,26 +151,31 @@ const ComprehensionData = [
                 questions: [{
                     id: 1,
                     question: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-                    options: ['option1','option2','option3','option4']
+                    options: ['option1','option2','option3','option4'],
+                    correctOption: 1
                 },
                 {
                     id: 2,
                     question: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-                    options: ['option1','option2','option3','option4']
+                    options: ['option1','option2','option3','option4'],
+                    correctOption: 1
                 },
                 {
                     id: 3,
                     question: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-                    options: ['option1','option2','option3','option4']
+                    options: ['option1','option2','option3','option4'],
+                    correctOption: 1
                 },
                 {
                     id: 4,
                     question: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-                    options: ['option1','option2','option3','option4']
+                    options: ['option1','option2','option3','option4'],
+                    correctOption: 1
                 },{
                     id: 5,
                     question: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-                    options: ['option1','option2','option3','option4']
+                    options: ['option1','option2','option3','option4'],
+                    correctOption: 1
                 }]
             },
             {
@@ -171,26 +186,31 @@ const ComprehensionData = [
                 questions: [{
                     id: 1,
                     question: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-                    options: ['option1','option2','option3','option4']
+                    options: ['option1','option2','option3','option4'],
+                    correctOption: 1
                 },
                 {
                     id: 2,
                     question: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-                    options: ['option1','option2','option3','option4']
+                    options: ['option1','option2','option3','option4'],
+                    correctOption: 1
                 },
                 {
                     id: 3,
                     question: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-                    options: ['option1','option2','option3','option4']
+                    options: ['option1','option2','option3','option4'],
+                    correctOption: 1
                 },
                 {
                     id: 4,
                     question: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-                    options: ['option1','option2','option3','option4']
+                    options: ['option1','option2','option3','option4'],
+                    correctOption: 1
                 },{
                     id: 5,
                     question: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-                    options: ['option1','option2','option3','option4']
+                    options: ['option1','option2','option3','option4'],
+                    correctOption: 1
                 }]
             },
             {
@@ -201,26 +221,31 @@ const ComprehensionData = [
                 questions: [{
                     id: 1,
                     question: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-                    options: ['option1','option2','option3','option4']
+                    options: ['option1','option2','option3','option4'],
+                    correctOption: 1
                 },
                 {
                     id: 2,
                     question: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-                    options: ['option1','option2','option3','option4']
+                    options: ['option1','option2','option3','option4'],
+                    correctOption: 1
                 },
                 {
                     id: 3,
                     question: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-                    options: ['option1','option2','option3','option4']
+                    options: ['option1','option2','option3','option4'],
+                    correctOption: 1
                 },
                 {
                     id: 4,
                     question: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-                    options: ['option1','option2','option3','option4']
+                    options: ['option1','option2','option3','option4'],
+                    correctOption: 1
                 },{
                     id: 5,
                     question: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-                    options: ['option1','option2','option3','option4']
+                    options: ['option1','option2','option3','option4'],
+                    correctOption: 1
                 }]
             },
             {
@@ -231,26 +256,31 @@ const ComprehensionData = [
                 questions: [{
                     id: 1,
                     question: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-                    options: ['option1','option2','option3','option4']
+                    options: ['option1','option2','option3','option4'],
+                    correctOption: 1
                 },
                 {
                     id: 2,
                     question: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-                    options: ['option1','option2','option3','option4']
+                    options: ['option1','option2','option3','option4'],
+                    correctOption: 1
                 },
                 {
                     id: 3,
                     question: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-                    options: ['option1','option2','option3','option4']
+                    options: ['option1','option2','option3','option4'],
+                    correctOption: 1
                 },
                 {
                     id: 4,
                     question: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-                    options: ['option1','option2','option3','option4']
+                    options: ['option1','option2','option3','option4'],
+                    correctOption: 1
                 },{
                     id: 5,
                     question: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-                    options: ['option1','option2','option3','option4']
+                    options: ['option1','option2','option3','option4'],
+                    correctOption: 1
                 }]
             }
         ]

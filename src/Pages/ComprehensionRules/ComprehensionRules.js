@@ -1,8 +1,8 @@
 import React from 'react';
-
-import './ComprehensionRules.Styles.css';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
+
+import './ComprehensionRules.Styles.css';
 
 const ComprehensionRules = ({match, comprehensionData}) => {
     const allotedCompanyId = match.params.companyId;
