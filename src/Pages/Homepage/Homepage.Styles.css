@@ -3,7 +3,7 @@
     padding: 0 !important;
     position: relative;
     padding: 18%;
-    overflow-x: hidden;
+    overflow: hidden;
     height: 100%;
 }
 
