@@ -16,22 +16,23 @@
     height: 40px;
     margin: 20px 40%;
     transition: all 0.5s cubic-bezier(0.445, 0.05, 0, 1);
-    border: none;
+    border: 1px solid white;
     outline: none;
     border-radius: 2px;
     font-size: 20px;
     margin-top: 20px;
+    background-color: #282c34;
 }
 
 .questions-page .button button:hover{
-    background-color: #282c34;
+    background-color: white;
 }
 
 .questions-page .button button a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .questions-page .button button:hover a{
-    color: white;
+    color: black;
 }

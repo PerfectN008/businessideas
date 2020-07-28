@@ -13,6 +13,9 @@ import Body from '../../Components/Body/Body';
     const currentComprehension = comprehensions.find( comprehension => comprehension.routeName===match.params.comprehensionId);
     return (
         <div className='comprehension-page'>
+            <div className='comprehension-image' >
+                <img src={require('../../Assets/'+currentComprehension.routeName+'.svg')} alt='ComprehensionImage'/>
+            </div>
             <div className='comprehension'>
                 <Header heading={currentComprehension.name} />
                 <Body body={currentComprehension.comprehension} />
